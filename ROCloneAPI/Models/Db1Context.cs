@@ -17,6 +17,9 @@ public partial class Db1Context : DbContext
 
     public virtual DbSet<Character1> Character1s { get; set; }
 
+    public virtual DbSet<CharacterMonster> CharacterMonster { get; set; }
+
+
     public virtual DbSet<Item> Items { get; set; }
 
     public virtual DbSet<Monster> Monsters { get; set; }
